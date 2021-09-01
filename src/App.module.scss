@@ -1,0 +1,15 @@
+@import "Styles/colors.scss";
+
+.app {
+  background: $background;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.link {
+  font-size: 18px;
+  text-decoration: none;
+  color: $white;
+  margin: 0 5px;
+  padding: 0 5px;
+}

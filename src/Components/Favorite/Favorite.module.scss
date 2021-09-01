@@ -1,0 +1,10 @@
+@import "../../Styles/colors.scss";
+
+.favorite {
+  color: $white;
+  margin: 5% 2.5%;
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+}

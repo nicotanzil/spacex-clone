@@ -1,0 +1,17 @@
+@import "../../Styles/colors.scss";
+
+.search_result {
+  width: 50%;
+  margin: 10px 0;
+}
+
+.empty_query {
+  color: $white;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+  .search_result {
+    width: 85%;
+  }
+}
